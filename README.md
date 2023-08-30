@@ -1,6 +1,12 @@
 # React TS Boilerplate
 
-This boilerplate contains basic frontend tech stack guidelines.
+![vite](src/assets/vite.svg)
+![react](src/assets/react.svg)
+![typescript](src/assets/typescript.svg)
+![prettier](src/assets/prettier-2.svg)
+![eslint](src/assets/eslint-1.svg)
+
+This boilerplate contains basic frontend tech stack guidelines for GKMIT.
 
 The following tools are used:
 
@@ -27,7 +33,7 @@ Get your project up and running with the following steps:
 1. Fork and clone the repo
 
    ```sh
-   git clone git@github.com:vinayakSuthar/frontend-boilerplate.git
+   git clone git@github.com:VinayakSuthar/react-ts-boilerplate.git
    ```
 
 2. Install NPM packages
