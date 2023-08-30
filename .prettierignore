@@ -1,0 +1,10 @@
+node_modules
+
+/build
+/public/build
+/server-build
+.env
+
+/test-results/
+/tests/fixtures/email/*.json
+/coverage
