@@ -25,7 +25,7 @@ Get your project up and running with the following steps:
 
 ## Prerequisite
 
-1. Node
+1. Node 18
 2. Yarn
 
 ## Setup
@@ -36,7 +36,7 @@ Get your project up and running with the following steps:
    git clone git@github.com:VinayakSuthar/react-ts-boilerplate.git
    ```
 
-2. Install NPM packages
+2. Install Dependencies
 
    ```sh
    yarn
