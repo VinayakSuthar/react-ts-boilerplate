@@ -6,18 +6,18 @@
 ![prettier](src/assets/prettier-2.svg)
 ![eslint](src/assets/eslint-1.svg)
 
-This boilerplate contains basic frontend tech stack guidelines for GKMIT.
+This boilerplate contains guidelines for a frontend React app.
 
 The following tools are used:
 
-- Basic react installation with [Vite](https://vitejs.dev/guide/)
+- Basic React installation with [Vite](https://vitejs.dev/guide/)
 - Typescript
-- Eslint: testing the static code
-- Prettier: format the code
-- Husky: execute eslint and prettier before every commit
+- ESLint: for testing the static code
+- Prettier: for formatting the code
+- Husky: executes ESLint and Prettier before every commit
 - Path alias for file import
 - Basic test cases with [Vitest](https://vitest.dev/) and [react-testing-library](https://testing-library.com/docs/react-testing-library/intro/)
-- github pipeline workflow
+- Github pipeline workflow
 
 ## Getting Started
 
@@ -50,10 +50,10 @@ Get your project up and running with the following steps:
 
 ### Development
 
-- `yarn run dev` to monitor src folder for changes, and mount current code at `localhost:5173`.
+- `yarn run dev` Start Vite dev server in the current directory at `localhost:5173`.
 - `yarn run lint` to run full linter.
 - `yarn run format` to format code.
 - `yarn run build` generates a production-ready bundle.
 
 > **Note**  
-> Run `yarn run prepare` once you have set up your project to enable Husky to execute Eslint and Prettier before every commit.
+> To make sure that Eslint and Prettier run before every commit, run the command `yarn run prepare` after setting up your project.
