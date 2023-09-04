@@ -6,29 +6,31 @@
 ![prettier](src/assets/prettier-2.svg)
 ![eslint](src/assets/eslint-1.svg)
 
-This boilerplate contains guidelines for a frontend React app.
+A boilerplate project for building modern web applications using React, Vite, TypeScript, ESLint, Prettier, Husky, Vitest, and GitHub Actions.
 
-The following tools are used:
+## Features
 
-- Basic React installation with [Vite](https://vitejs.dev/guide/)
-- Typescript
-- ESLint: for testing the static code
-- Prettier: for formatting the code
-- Husky: executes ESLint and Prettier before every commit
-- Path alias for file import
-- Basic test cases with [Vitest](https://vitest.dev/) and [react-testing-library](https://testing-library.com/docs/react-testing-library/intro/)
-- Github pipeline workflow
+- **React**: A popular JavaScript library for building user interfaces.
+- **Vite**: A fast, modern development build tool.
+- **TypeScript**: A statically typed superset of JavaScript.
+- **ESLint**: A pluggable linting utility for JavaScript and TypeScript.
+- **Prettier**: An opinionated code formatter.
+- **Husky**: Git hooks made easy.
+- **Vitest**: A simple, lightweight, and fast testing framework.
+- **GitHub Actions**: Automate your workflow with CI/CD.
 
 ## Getting Started
 
 Get your project up and running with the following steps:
 
-## Prerequisite
+### Prerequisite
+
+Before you begin, ensure you have met the following requirements:
 
 1. Node 18
 2. Yarn
 
-## Setup
+### Installation
 
 1. Fork and clone the repo
 
@@ -50,10 +52,14 @@ Get your project up and running with the following steps:
 
 ### Development
 
-- `yarn run dev` Start Vite dev server in the current directory at `localhost:5173`.
-- `yarn run lint` to run full linter.
-- `yarn run format` to format code.
+- `yarn run dev` start Vite dev server in the current directory at `localhost:5173`.
+- `yarn run lint` to lint your code.
+- `yarn run format` to automatically format your code with Prettier.
 - `yarn run build` generates a production-ready bundle.
 
 > **Note**  
 > To make sure that Eslint and Prettier run before every commit, run the command `yarn run prepare` after setting up your project.
+
+### Continuous Integration (GitHub Actions)
+
+This project is set up for continuous integration using GitHub Actions. The CI pipeline includes running tests and deploying to Github Pages. You can view the CI/CD workflows in the .github/workflows directory.
