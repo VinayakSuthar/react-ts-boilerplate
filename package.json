@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "prepare": "husky install",
     "lint": "eslint src --ext ts,tsx,js --report-unused-disable-directives --max-warnings 0",
-    "format": "prettier --write --no-error-on-unmatched-pattern **/*.{ts,tsx,js,cjs,css,md,json,scss,html} --config ./.prettierrc.json",
+    "format": "prettier --write --no-error-on-unmatched-pattern src/**/*.{ts,tsx,js,cjs,css,md,json,scss,html} --config ./.prettierrc.json",
     "lint:format": "npm run lint && npm run format",
     "test": "vitest",
     "test:ui": "vitest --ui",
