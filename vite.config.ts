@@ -1,3 +1,6 @@
+/// <reference types="vitest" />
+/// <reference types="vite/client" />
+
 import { defineConfig } from "vite";
 
 import react from "@vitejs/plugin-react";
@@ -17,5 +20,13 @@ export default defineConfig({
       types: path.resolve(__dirname, "./src/types"),
       public: path.resolve(__dirname, "./public"),
     },
+  },
+  test: {
+    globals: true,
+    environment: "jsdom",
+    setupFiles: "./src/test/setup.ts",
+    // you might want to enable it, if you have tests that rely on CSS
+    // since parsing CSS is slow
+    // css: true,
   },
 });
