@@ -5,6 +5,8 @@ node_modules
 /server-build
 .env
 
+/src/assets
+
 /test-results/
 /tests/fixtures/email/*.json
 /coverage

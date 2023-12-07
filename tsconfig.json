@@ -9,12 +9,12 @@
     "baseUrl": ".",
     "paths": {
       "#/*": ["src/*"],
-      "assets/*": ["src/assets/*"],
-      "components/*": ["src/components/*"],
-      "pages/*": ["src/pages/*"],
-      "utils/*": ["src/utils/*"],
-      "types/*": ["src/types/*"],
-      "public/*": ["public/*"]
+      "#assets/*": ["src/assets/*"],
+      "#components/*": ["src/components/*"],
+      "#pages/*": ["src/pages/*"],
+      "#utils/*": ["src/utils/*"],
+      "#types/*": ["src/types/*"],
+      "#public/*": ["public/*"]
     },
 
     /* Bundler mode */
